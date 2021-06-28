@@ -18,15 +18,11 @@ const Wallet = () => {
   return (
     <WalletSectionWrapper>
       <Container>
-        <img
-          src={SectionParticle}
-          className="section__particle"
-          alt="cryptik"
-        />
+        <img src={SectionParticle} className="section__particle" alt="MEDia" />
         <Row>
           <Col className="lg-5 md-4 xs-12">
             <Box className="wallet-image">
-              <Image src={walletImage} alt="cryptik wallet image" />
+              <Image src={walletImage} alt="MEDia wallet image" />
             </Box>
           </Col>
           <Col className="lg-6 offset-lg-1 md-8 xs-12">

@@ -19,7 +19,7 @@ const CoinFundWrapper = styled.div`
     content: " ";
   }
 
-  .btn-wrapper{
+  .btn-wrapper {
     margin-top: 35px;
   }
   .btn-fill {
@@ -49,7 +49,7 @@ const CoinFundWrapper = styled.div`
 
     .progressbar {
       position: relative;
-      width: 60%;
+      width: 16%;
       height: 30px;
       border-radius: 20px;
       background: rgb(35, 42, 213);
@@ -102,8 +102,8 @@ const CoinFundWrapper = styled.div`
         margin-bottom: 16px;
       }
       .label {
-       font-size: 14px;
-       color: #BEABDF;
+        font-size: 14px;
+        color: #beabdf;
       }
       .split {
         font-size: 40px;
@@ -130,13 +130,13 @@ const CoinFundWrapper = styled.div`
 
   @media only screen and (max-width: 912px) {
     background-position: 86% 70%;
-    .coin-fund-content-left{
+    .coin-fund-content-left {
       text-align: center;
       margin-bottom: 80px;
     }
   }
   @media only screen and (max-width: 768px) {
-    .countdown-wrap{
+    .countdown-wrap {
       width: 100%;
     }
   }
@@ -153,8 +153,8 @@ const CoinFundWrapper = styled.div`
       }
       .count {
         font-size: 35px;
-      } 
-      .countBox{
+      }
+      .countBox {
         flex-direction: column-reverse;
       }
     }

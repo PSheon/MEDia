@@ -1,18 +1,17 @@
 import styled from "styled-components";
 
-
 const BannerWrapper = styled.div`
   position: relative;
   overflow: hidden;
   padding: 278px 0 150px 0;
 
-  .banner__thumb{
+  .banner__thumb {
     position: absolute;
     right: -4%;
     top: -12%;
     width: 40%;
   }
-  
+
   .section__particle {
     position: absolute;
     &.top-left {
@@ -65,8 +64,9 @@ const BannerWrapper = styled.div`
     }
 
     p {
+      margin-right: 20px;
       margin-bottom: 60px;
-      color: #BEABDF;
+      color: #beabdf;
       font-size: 18px;
       line-height: 28px;
     }
@@ -78,17 +78,17 @@ const BannerWrapper = styled.div`
         border: 1px solid #ffffff;
         color: #ffffff;
         transition: all 0.3s ease-in;
-        &:hover{
+        &:hover {
           background: #ffffff;
           color: ${(props) =>
-          props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
-        } 
+            props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
+        }
       }
 
       .btn-fill {
         background: #ffffff;
         color: ${(props) =>
-        props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
+          props.theme.linkColor ? props.theme.linkColor : "#1F2AD5"};
       }
 
       a + a {
@@ -97,80 +97,79 @@ const BannerWrapper = styled.div`
     }
   }
 
-
-  @media only screen and (max-width: 912px) { 
+  @media only screen and (max-width: 912px) {
     padding: 215px 0 150px 0;
-    .banner__thumb{
+    .banner__thumb {
       display: none;
     }
     .banner-content {
-      h1{
+      h1 {
         font-size: 40px;
         line-height: 60px;
       }
     }
   }
-  @media only screen and (max-width: 768px) { 
+  @media only screen and (max-width: 768px) {
     padding: 180px 0 120px 0;
     .banner-content {
-      h1{
+      h1 {
         font-size: 35px;
         line-height: 55px;
       }
     }
   }
-  @media only screen and (max-width: 480px) { 
+  @media only screen and (max-width: 480px) {
     .banner-content {
-      h1{
+      h1 {
         font-size: 30px;
         line-height: 50px;
-        br{
+        br {
           display: none;
         }
       }
-      .text{
-        br{
+      .text {
+        br {
           display: none;
         }
       }
     }
-    .section__particle{
-      &.bottom-right{
+    .section__particle {
+      &.bottom-right {
         display: none;
       }
     }
   }
-  @media only screen and (max-width: 375px) { 
+  @media only screen and (max-width: 375px) {
     .banner-content {
-      h1{
+      h1 {
         font-size: 25px;
         line-height: 40px;
       }
-      .banner-btn{
-        .btn{
+      .banner-btn {
+        .btn {
           width: 155px;
           padding: 18px 5px;
         }
       }
     }
   }
-  @media only screen and (max-width: 320px) { 
+  @media only screen and (max-width: 320px) {
     .banner-content {
-      h1{
+      h1 {
         font-size: 22px;
         line-height: 35px;
       }
-      .banner-btn{
-        .btn{
+      .banner-btn {
+        .btn {
           width: 170px;
           padding: 18px 5px;
           display: block;
         }
-        a+a{
+        a + a {
           margin: 15px 0 0 0;
         }
       }
     }
-  } 
+  }
 `;
 export default BannerWrapper;

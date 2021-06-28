@@ -7,23 +7,23 @@ export default {
   services: [
     {
       icon: serviceIcon1,
-      title: "ICO Finance",
-      body: "The highly the not having with lively Our up with.",
+      title: "快速交易",
+      body: "基於 ERC20 發行的 MED 擁有快速的交易網路",
     },
     {
       icon: serviceIcon2,
-      title: "Blockchain",
-      body: "The highly the not having with lively Our up with.",
+      title: "每週獎金",
+      body: "每週發放 MED 給前 15 名交易量的會員.",
     },
     {
       icon: serviceIcon3,
-      title: "Market News",
-      body: "The highly the not having with lively Our up with.",
+      title: "區塊鏈",
+      body: "你的資料將安全的紀錄在乙太坊上.",
     },
     {
       icon: serviceIcon4,
-      title: "Exchange Offer",
-      body: "The highly the not having with lively Our up with.",
+      title: "自由交易",
+      body: "在 ETH、MED 之間任意選擇收發的貨幣.",
     },
   ],
 };

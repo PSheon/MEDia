@@ -1,7 +1,7 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel, resetIdCounter } from "react-tabs";
 
-import { Container, Row, Col } from "reusecore/Layout"; 
+import { Container, Row, Col } from "reusecore/Layout";
 
 import {
   Accordion,
@@ -35,12 +35,9 @@ const Faq = () => {
           <Col className="md-6 xs-12">
             <SectionTitle>
               <SectionBackground>
-                <Heading>Frequently asked questions</Heading>
+                <Heading>常見問題</Heading>
               </SectionBackground>
-              <Text>
-                Attention in when in just something bread not hundred well, muff
-                value emerge on the known officers.
-              </Text>
+              <Text>我們整理了一些常見的問題，並一一解答.</Text>
             </SectionTitle>
           </Col>
         </Row>
@@ -83,11 +80,7 @@ const Faq = () => {
             </Box>
           </Col>
           <Col className="md-5 offset-md-1 offset-xs-0 xs-12">
-            <Image
-              src={faqImage}
-              alt="cryptik faq image"
-              className="faq-image"
-            />
+            <Image src={faqImage} alt="MEDia faq image" className="faq-image" />
           </Col>
         </Row>
       </Container>

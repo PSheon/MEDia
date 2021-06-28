@@ -20,7 +20,7 @@ const Footer = () => {
       <Box className="footer-content-wrapper">
         <Subscribe />
         <Container>
-          <Row>
+          {/* <Row>
             <Col className="lg-3 sm-6">
               <Box className="footer-widgets company-desc">
                 <Image src={cryptikFooterLogo} alt="cryptik footer logo" />
@@ -127,23 +127,23 @@ const Footer = () => {
                 </Text>
               </Box>
             </Col>
-          </Row>
+          </Row> */}
           <Row>
             <Col className="xs-12">
-              <Box className="footer-social-links">
+              {/* <Box className="footer-social-links">
                 {data.links.map((item, index) => (
                   <Link href={item.url} key={index}>
                     <a> {item.icon} </a>
                   </Link>
                 ))}
-              </Box>
+              </Box> */}
 
               <Box className="copyright-text">
-                <Text>&copy; Cryptik | All right rserved 2020</Text>
+                <Text>&copy; MEDia | All right rserved 2020</Text>
                 <Text as="span">
-                  Designed By{" "}
+                  Powered By{" "}
                   <Link href="#">
-                    <a>Devscorn</a>
+                    <a>Ethereum</a>
                   </Link>
                 </Text>
               </Box>

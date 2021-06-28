@@ -30,7 +30,7 @@ const UserMap = () => {
           <Row>
             <Col className="md-12">
               <Box className="usermap-block">
-                <Image src={UserMapImage} alt="cryptik user map" />
+                <Image src={UserMapImage} alt="MEDia user map" />
               </Box>
             </Col>
           </Row>

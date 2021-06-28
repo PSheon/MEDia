@@ -1,44 +1,43 @@
-
 export default {
   faq: [
-    { 
-        name: "Pre-ICO & ICO",
-        items: [
-            {
-                title: "What is ICO Crypto?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
-            },
-            {
-                title: "What cryptocurrencies can I use to purchase?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
-            },
-            {
-                title: "How can I participate in the ICO Token sale?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
-            },
-            {
-                title: "How do I benefit from the ICO Token?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
-            },
-        ] 
+    {
+      name: "樂透獎金池",
+      items: [
+        {
+          title: "什麼是獎勵池?",
+          body: "每週 MEDia 會發放 30,000 MED 獎勵交易額前 15 名的收藏家，另外會發放 20,000 MED 給隨機挑選的 10 名創作者和 10 名收藏家.",
+        },
+        {
+          title: "MEDia 支援什麼虛擬貨幣?",
+          body: "問題回答.",
+        },
+        {
+          title: "問題",
+          body: "問題回答.",
+        },
+        {
+          title: "問題",
+          body: "問題回答.",
+        },
+      ],
     },
-    { 
-        name: "General",
-        items: [
-            {
-                title: "How can I participate in the ICO Token sale?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
-            },
-        ] 
+    {
+      name: "安全性",
+      items: [
+        {
+          title: "問題",
+          body: "問題回答.",
+        },
+      ],
     },
-    { 
-        name: "Tokens",
-        items: [
-            {
-                title: "How can I participate in the ICO Token sale?",
-                body: "Cryptik - is unique platform; that is secure, smart and easy-to-use platform, and completely disrupting the way businesses raise capital. Below we’ve provided a bit of ICO, ICO Token, cryptocurrencies, and few others."
-            },
-        ] 
+    {
+      name: "MED 代幣",
+      items: [
+        {
+          title: "我可以在哪裡買到 MEDia (MED)？",
+          body: "問題回答.",
+        },
+      ],
     },
   ],
 };

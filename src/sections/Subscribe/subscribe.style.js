@@ -98,6 +98,9 @@ const SubscribeWrapper = styled.div`
         padding: 50px 18px;
       }
     }
+    .form-box button {
+      width: 20%;
+    }
     .heading {
       font-size: 30px;
       line-height: 40px;

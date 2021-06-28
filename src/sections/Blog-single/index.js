@@ -39,7 +39,7 @@ const BlogSinglePage = () => {
                 <Col className="xs-12">
                   <Box className="single-post-block">
                     <Box className="post-thumb-block">
-                      <Image src={BlogThumb} alt="cryptik blog page" />
+                      <Image src={BlogThumb} alt="MEDia blog page" />
                       <Box className="post-meta">
                         <Text as="span">
                           <Text as="em"> 15 </Text> DEC
@@ -131,7 +131,7 @@ const BlogSinglePage = () => {
                             <Box className="author-avatar">
                               <Image
                                 src={AuthorThumb2}
-                                alt="cryptik comments author"
+                                alt="MEDia comments author"
                               />
                             </Box>
                             <Box className="comment-body">
@@ -163,7 +163,7 @@ const BlogSinglePage = () => {
                                 <Box className="author-avatar">
                                   <Image
                                     src={AuthorThumb3}
-                                    alt="cryptik comments author"
+                                    alt="MEDia comments author"
                                   />
                                 </Box>
                                 <Box className="comment-body">
@@ -197,7 +197,7 @@ const BlogSinglePage = () => {
                                 <Box className="author-avatar">
                                   <Image
                                     src={AuthorThumb4}
-                                    alt="cryptik comments author"
+                                    alt="MEDia comments author"
                                   />
                                 </Box>
                                 <Box className="comment-body">
@@ -233,7 +233,7 @@ const BlogSinglePage = () => {
                             <Box className="author-avatar">
                               <Image
                                 src={AuthorThumb5}
-                                alt="cryptik comments author"
+                                alt="MEDia comments author"
                               />
                             </Box>
                             <Box className="comment-body">

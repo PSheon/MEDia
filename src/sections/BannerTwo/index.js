@@ -27,11 +27,11 @@ import BannerWrapper from "./banner.style";
 const BannerTwo = () => {
   return (
     <BannerWrapper>
-      <img src={particleTopLeft} className="section__particle top-left" alt="cryptik particles"/>
-      <img src={particleUnderLogo} className="section__particle two" alt="cryptik particles"/>
-      <img src={prticleTopRight} className="section__particle top-right" alt="cryptik particles"/>
-      <img src={particleBottomLeft} className="section__particle bottom-left" alt="cryptik particles"/>
-      <img src={particleBottomRight} className="section__particle bottom-right" alt="cryptik particles"/>
+      <img src={particleTopLeft} className="section__particle top-left" alt="MEDia particles"/>
+      <img src={particleUnderLogo} className="section__particle two" alt="MEDia particles"/>
+      <img src={prticleTopRight} className="section__particle top-right" alt="MEDia particles"/>
+      <img src={particleBottomLeft} className="section__particle bottom-left" alt="MEDia particles"/>
+      <img src={particleBottomRight} className="section__particle bottom-right" alt="MEDia particles"/>
       <Container>
        
       <svg className="banner__thumb" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="493.537" height="606.367" viewBox="0 0 493.537 606.367">

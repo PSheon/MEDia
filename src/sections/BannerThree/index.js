@@ -26,32 +26,32 @@ const BannerThree = () => {
         <img
           src={particleTopLeft}
           className="section__particle top-left"
-          alt="cryptik particles"
+          alt="MEDia particles"
         />
         <img
           src={particleUnderLogo}
           className="section__particle two"
-          alt="cryptik particles"
+          alt="MEDia particles"
         />
         <img
           src={prticleTopRight}
           className="section__particle top-right"
-          alt="cryptik particles"
+          alt="MEDia particles"
         />
         <img
           src={particleBottomLeft}
           className="section__particle bottom-left"
-          alt="cryptik particles"
+          alt="MEDia particles"
         />
         <img
           src={particleBottomRight}
           className="section__particle bottom-right"
-          alt="cryptik particles"
+          alt="MEDia particles"
         />
         <Container>
           <img
             className="banner__thumb"
-            alt="cryptik banner thumb"
+            alt="MEDia banner thumb"
             src={BannerImage}
           />
           <Row>

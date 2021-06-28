@@ -1,6 +1,6 @@
 import React from "react";
 import { Link as OnepageLink } from "react-scroll";
-import Link from 'next/link';
+import Link from "next/link";
 
 const ScrollspyMenu = ({ menuItems, ...props }) => {
   const addAllClasses = [""];
@@ -29,23 +29,22 @@ const ScrollspyMenu = ({ menuItems, ...props }) => {
           {menu.subItems !== undefined && (
             <ul key={index} className="dropdown">
               {menu.subItems.map((subItem, i) => (
-                  <li key={i}>
-                    <Link href={subItem.path}>
-                      <a>{subItem.name}</a>
-                    </Link>
-                  </li>
+                <li key={i}>
+                  <Link href={subItem.path}>
+                    <a>{subItem.name}</a>
+                  </Link>
+                </li>
               ))}
             </ul>
           )}
         </li>
       ))}
-      <li>
+      {/* <li>
         <button className="nav__button">
           Get in Touch
         </button>
-      </li>
+      </li> */}
     </ul>
-
   );
 };
 

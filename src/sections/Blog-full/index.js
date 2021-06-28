@@ -32,7 +32,7 @@ const BlogPage = () => {
                             <a>
                               <img
                                 src={post.thumbnail}
-                                alt="cryptik blog image"
+                                alt="MEDia blog image"
                               />
                             </a>
                           </Link>

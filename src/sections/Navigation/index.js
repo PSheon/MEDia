@@ -30,15 +30,13 @@ const Navigation = () => {
 
   //[expand, scroll]
   return (
-    <NavigationWrap
-      id="navbar"
-      className={`nav-block`}
-    >
+    <NavigationWrap id="navbar" className={`nav-block`}>
       <Container>
         <div className="navbar-wrap">
           <Link href="/">
             <a className="logo">
-              <img src={logo} alt="prime app landing" />
+              {/* <img src={logo} alt="prime app landing" /> */}
+              MEDia
             </a>
           </Link>
           <nav className="nav">
